@@ -29,6 +29,12 @@ REDIS_URL="redis://localhost:6379"
 docker compose up -d
 ```
 
+### Gere as tabelas no banco de dados:
+
+```
+npm run db:migrate
+```
+
 ### Agora rode o projeto:
 
 ```
